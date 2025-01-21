@@ -162,9 +162,8 @@ cython_debug/
 #.idea/
 
 # Data
-!data/**/
-!data/**/.gitkeep
 data/*
+!data/**/.gitkeep
 
 # Cursor
 .cursorrules

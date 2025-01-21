@@ -1,10 +1,13 @@
 # Predictive Funding Challenge 🌱
 
-A machine learning challenge to predict relative funding between open source projects, aiming to create scalable and fair public goods funding allocation.
+A machine learning challenge to predict relative funding between open source projects, aiming to create scalable and fair public goods funding allocation. This repository contains the code and resources for two challenges:
+
+- [HuggingFace Competition](https://huggingface.co/spaces/DeepFunding/PredictiveFundingChallengeforOpenSourceDependencies)
+- [CryptoPond Competition](https://cryptopond.xyz/modelfactory/detail/306250)
 
 ## 📦 Data
 
-For the [contest](https://huggingface.co/spaces/DeepFunding/PredictiveFundingChallengeforOpenSourceDependencies), the dataset represents pairs of GitHub repositories and their funding amounts in historical funding rounds data.
+Each contest uses a similar dataset, it contains a pair of projects and the relative funding amounts in historical funding rounds.
 
 ## 🎯 Goal
 
@@ -26,17 +29,17 @@ Make sure you have [`uv` installed](https://docs.astral.sh/uv/). Then run the fo
 uv sync
 ```
 
+Once all the dependencies are installed, you can run any Notebook in the `notebooks` folder!
+
 ### 🔐 Environment
 
 Create a `.env` file in the root directory with the following variables:
 
-- `GOOGLE_APPLICATION_CREDENTIALS`: Path to a Google Cloud service account with BigQuery access. You can create one on the [Google Cloud Console](https://console.cloud.google.com/iam-admin/serviceaccounts) and store it under an `env` folder.
 - `GITHUB_TOKEN`: A GitHub personal access token with rate limiting. You can create one on [GitHub Developer Settings](https://github.com/settings/tokens?type=beta).
 
 ## 📚 Resources
 
 - [Official Website](https://deepfunding.org) - [FAQ](https://deepfunding.org/faq)
 - [GitHub Repository](https://github.com/deepfunding/dependency-graph)
-- [HuggingFace Competition](https://huggingface.co/spaces/DeepFunding/PredictiveFundingChallengeforOpenSourceDependencies)
 - [Demo of the Voting UI](https://pairwise-df-demo.vercel.app/allocation)
 - [Deep Funding Podcast](https://www.youtube.com/watch?v=ygaEBHYllPU)
