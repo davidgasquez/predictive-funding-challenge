@@ -162,8 +162,10 @@ cython_debug/
 #.idea/
 
 # Data
-data/*
-!data/**/.gitkeep
+data/processed/*
+!data/processed/**/.gitkeep
+data/submissions/*
+!data/submissions/**/.gitkeep
 
 # Cursor
 .cursorrules

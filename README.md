@@ -40,6 +40,10 @@ Create a `.env` file in the root directory with the following variables:
 ## 📚 Resources
 
 - [Official Website](https://deepfunding.org) - [FAQ](https://deepfunding.org/faq)
-- [GitHub Repository](https://github.com/deepfunding/dependency-graph)
-- [Demo of the Voting UI](https://pairwise-df-demo.vercel.app/allocation)
 - [Deep Funding Podcast](https://www.youtube.com/watch?v=ygaEBHYllPU)
+- [GitHub Repository](https://github.com/deepfunding/dependency-graph)
+- Other Solutions:
+  - https://github.com/aniemerg/mini-contest
+  - https://github.com/BonAppResearch/deepfunding-mini-contest
+  - https://github.com/HonorCodeDAO/deepfunding_rep
+  - https://github.com/abdulraheem040/Improve-Funding-Mechanism-for-Ethereum
