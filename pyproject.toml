@@ -7,12 +7,15 @@ authors = [{ name = "David Gasquez", email = "davidgasquez@gmail.com" }]
 requires-python = ">=3.13"
 dependencies = [
     "altair>=5.5.0",
+    "category-encoders>=2.8.0",
+    "feature-engine>=1.8.2",
     "httpx>=0.28.1",
     "lightgbm>=4.5.0",
     "pandas>=2.2.3",
     "polars>=1.20.0",
     "pyarrow>=19.0.0",
     "scikit-learn>=1.6.1",
+    "skrub>=0.4.1",
 ]
 
 [dependency-groups]
