@@ -47,3 +47,4 @@ Create a `.env` file in the root directory with the following variables:
   - https://github.com/BonAppResearch/deepfunding-mini-contest
   - https://github.com/HonorCodeDAO/deepfunding_rep
   - https://github.com/abdulraheem040/Improve-Funding-Mechanism-for-Ethereum
+  - https://github.com/theokha/pond-funding-comp
